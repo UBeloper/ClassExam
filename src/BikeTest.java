@@ -10,6 +10,9 @@ public class BikeTest {
 		
 		System.out.println("속도 : "+B1.getSpeed()+"km/h");
 		
+		B2.setBike("B2-1", 100, 858050);
+		System.out.println("속도 : "+B2.speed+"km/h");
+		
 	
 	}
 	

@@ -37,7 +37,7 @@ public class Bike {
 	}
 	
 	public void setSpeedup(int bSpeed) {
-		speed += bSpeed
+		speed += bSpeed;
 	}
 
 }
