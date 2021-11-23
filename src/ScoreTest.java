@@ -35,9 +35,10 @@ public class ScoreTest {
 		System.out.println(student2.getTotal());
 		System.out.println(student2.getAvg());
 		
-		student2.setEngscore(68);      // 멤버변수에 avg total 안넣고, 이렇게 하는 이유!!
+		student2.setEngscore(68);     			 // 점수 하나 바뀌어도 계산 할 수 있게끔!!
+												 // 멤버변수에 avg total (set) 안넣고, 이렇게 하는 이유!!
 		
-		System.out.println(student2.getTotal());
+		System.out.println(student2.getTotal()); // 원래 오리지널 값들로 계산하기 때문에 안전!!
 		System.out.println(student2.getAvg());
 		
 	}
