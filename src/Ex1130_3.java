@@ -22,8 +22,8 @@ public class Ex1130_3 {
 		
 		// บนป็ ภü
 		System.out.println();
-		for (String lang : bookArr1.getBookName()) {
-			System.out.println(lang);
+		for (int i = 0; i < bookArr2.length; i++) {
+			bookArr1[i].showBookInfo();
 //			System.out.println(bookArr1[i].getBookName());
 		}
 		
