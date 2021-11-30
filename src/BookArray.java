@@ -1,7 +1,7 @@
 
 public class BookArray {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// **** Book 배열 테스트
 		
 //			int[] aaa = new int[5];					// 비교하기위해, int이용한 배열객체생성.

@@ -18,6 +18,10 @@ public class Book {
 		
 	}
 	
+//	public Book(String bookName) {
+//		this.bookName = bookName;
+//	}
+	
 	// 오버로딩된 생성자
 	public Book(String bookName, String author) {
 		this.bookName = bookName;
