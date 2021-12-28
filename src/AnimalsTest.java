@@ -91,15 +91,11 @@ public class AnimalsTest { //파일명과 동일한 클래스는  public 필요(단1개)
 			System.out.println("알 수 없는 오류입니다.");
 		}
 	}
+	}
 		
 	//----------------------------------------------------
-		..
-		.
-	}
 	//move 메서드 호출
 	
-
-
 	public void moveAnimal(Animals animal) {
 		animal.move();  //다형성,실제로 다른 일을 실행
 }	
